@@ -1,9 +1,13 @@
 # GoogleFontsLibrary-Android
 [ ![Download](https://api.bintray.com/packages/vamzi/GoogleFontsLibrary-Android/GoogleFontsLibrary-Android/images/download.svg) ](https://bintray.com/vamzi/GoogleFontsLibrary-Android/GoogleFontsLibrary-Android/_latestVersion)[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)[![](https://jitpack.io/v/vamzi/GoogleFontsLibrary-Android.svg)](https://jitpack.io/#vamzi/GoogleFontsLibrary-Android)
+
+
 A android module for google fonts to be included in your app. It's simple and easy to change `TypeFace` of `TextView` by a simple line of code.
+
 # Getting Started
 
 For Gradle build
+
 Step 1. Add the JitPack repository to your build file
 Include this in your root `build.gradle` at the end of repositories
 
