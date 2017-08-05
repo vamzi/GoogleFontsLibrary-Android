@@ -158,14 +158,14 @@ public class GoogleFontsLibrary {
 
     public static Typeface Roboto(Context context,FontStyle style){
         switch(style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.robotoregular);
             case THIN:
                 return getTypefaceFromRes(context,R.raw.robotothin);
             case LIGHT:
                 return getTypefaceFromRes(context,R.raw.robotolight);
             case MEDIUM:
                 return getTypefaceFromRes(context,R.raw.robotomedium);
-            case REGULAR:
-                return getTypefaceFromRes(context,R.raw.robotoregular);
             case BOLD:
                 return getTypefaceFromRes(context,R.raw.robotobold);
             default:
