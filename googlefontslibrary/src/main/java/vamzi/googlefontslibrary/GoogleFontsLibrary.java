@@ -13,6 +13,132 @@ import java.io.InputStream;
 
 public class GoogleFontsLibrary {
 
+    public static Typeface Slabo(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.slaboregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.slaboregular);
+        }
+    }
+
+    public static Typeface SedgwickAve(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.sedgwickaveregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.sedgwickaveregular);
+        }
+    }
+
+    public static Typeface SedgwickAveDisplay(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.sedgwickavedisplayregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.sedgwickavedisplayregular);
+        }
+    }
+
+    public static Typeface Saira(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.sairaregular);
+            case MEDIUM:
+                return getTypefaceFromRes(context,R.raw.sairamedium);
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.sairalight);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.sairabold);
+            default:
+                return getTypefaceFromRes(context,R.raw.sairaregular);
+        }
+    }
+
+    public static Typeface RobotoCondenced(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.robotocondensedregular);
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.robotocondensedlight);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.robotocondensedbold);
+            default:
+                return getTypefaceFromRes(context,R.raw.robotocondensedregular);
+        }
+    }
+
+    public static Typeface Poppins(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.poppinsregular);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.poppinsbold);
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.poppinslight);
+            case MEDIUM:
+                return getTypefaceFromRes(context,R.raw.poppinsmedium);
+            default:
+                return getTypefaceFromRes(context,R.raw.poppinsregular);
+        }
+    }
+
+    public static Typeface Oswald(Context context,FontStyle style){
+        switch (style){
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.oswaldlight);
+            case MEDIUM:
+                return getTypefaceFromRes(context,R.raw.oswaldmedium);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.oswaldbold);
+            default:
+                return getTypefaceFromRes(context,R.raw.oswaldregular);
+        }
+    }
+
+    public static Typeface OpenSans(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.opensansregular);
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.opensanslight);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.opensansbold);
+            default:
+                return getTypefaceFromRes(context,R.raw.opensansregular);
+        }
+    }
+
+    public static Typeface Montserrat(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.montserratregular);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.montserratbold);
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.montserratlight);
+            case MEDIUM:
+                return getTypefaceFromRes(context,R.raw.montserratmedium);
+            case THIN:
+                return getTypefaceFromRes(context,R.raw.montserratthin);
+            default:
+                return getTypefaceFromRes(context,R.raw.montserratregular);
+        }
+    }
+
+    public static Typeface Lato(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.latoregular);
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.latolight);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.latobold);
+            default:
+                return getTypefaceFromRes(context,R.raw.latoregular);
+        }
+    }
+
     public static Typeface SairaCondensed(Context context,FontStyle style){
         switch(style){
             case BOLD:

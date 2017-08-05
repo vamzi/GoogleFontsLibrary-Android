@@ -14,6 +14,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+import vamzi.googlefontslibrary.FontStyle;
+import vamzi.googlefontslibrary.GoogleFontsLibrary;
+
 import static android.graphics.Typeface.BOLD;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tv=(TextView)findViewById(R.id.tv);TextView tv1=(TextView)findViewById(R.id.textView);
+        tv.setTypeface(GoogleFontsLibrary.NotoSans(this, FontStyle.REGULAR));
+
     }
 
 
