@@ -61,6 +61,12 @@ mTextView.setTypeface(GoogleFontsLibrary.NotoSans(this, FontStyle.REGULAR));
 |Noto Sans|`BOLD` `REGULAR`|
 |Zilla Slab Highlight|`BOLD` `REGULAR`|
 
+### More Fonts are available in [Wiki Page](https://github.com/vamzi/GoogleFontsLibrary-Android/wiki)
+
+### Feedback
+
+Suggestion and feeback can be submited at this link [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeg1s_MsDNKvOjI_le9iSzTOeL-H7S1KFQa_7ZIW3XwtjnUTg/viewform?usp=pp_url&entry.1898373068=GoogleFontsLibrary-Android&entry.1429518920)
+
 # License 
 ```sh
 Copyright 2017, Vamsi Krishna Kothapalli
