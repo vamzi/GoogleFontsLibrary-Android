@@ -1,7 +1,8 @@
-![Google-Fonts-Library-Header.jpg](http://i.imgur.com/6vz5xm1.jpg "Header Image")
+![Google-Fonts-Library-Header.jpg](http://imgur.com/FpE1fNN.jpg "Header Image")
 # GoogleFontsLibrary-Android
 [ ![Download](https://api.bintray.com/packages/vamzi/GoogleFontsLibrary-Android/GoogleFontsLibrary-Android/images/download.svg) ](https://bintray.com/vamzi/GoogleFontsLibrary-Android/GoogleFontsLibrary-Android/_latestVersion)[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)[![](https://jitpack.io/v/vamzi/GoogleFontsLibrary-Android.svg)](https://jitpack.io/#vamzi/GoogleFontsLibrary-Android)
 
+### Stable Release v0.1.2
 
 A android module for google fonts to be included in your app. It's simple and easy to change `TypeFace` of `TextView` by a simple line of code.
 
@@ -24,7 +25,7 @@ Step 2. Add the dependency
 
 ```sh
 	dependencies {
-	        compile 'com.github.vamzi:GoogleFontsLibrary-Android:0.1.0'
+	        compile 'com.github.vamzi:GoogleFontsLibrary-Android:0.1.2'
 	}
 ```
 
