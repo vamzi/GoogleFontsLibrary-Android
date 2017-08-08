@@ -13,6 +13,112 @@ import java.io.InputStream;
 
 public class GoogleFontsLibrary {
 
+    public static Typeface PermanentMarker(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.permanentmarker);
+            default:
+                return getTypefaceFromRes(context,R.raw.permanentmarker);
+        }
+    }
+
+    public static Typeface Oxygen(Context context,FontStyle style){
+        switch (style){
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.oxygenlight);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.oxygenbold);
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.oxygenregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.oxygenregular);
+        }
+    }
+
+    public static Typeface Nunito(Context context,FontStyle style){
+        switch (style){
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.nunitolight);
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.nunitobold);
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.nunitoregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.nunitoregular);
+        }
+    }
+
+    public static Typeface Lobster(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.lobsterregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.lobsterregular);
+        }
+    }
+
+    public static Typeface JosefinSans(Context context,FontStyle style){
+        switch (style){
+            case THIN:
+                return getTypefaceFromRes(context,R.raw.josefinsansthin);
+            case LIGHT:
+                return getTypefaceFromRes(context,R.raw.josefinsanslight);
+            case BOLD:
+                return  getTypefaceFromRes(context,R.raw.josefinsansbold);
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.josefinsansregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.josefinsansregular);
+        }
+    }
+
+    public static Typeface Courgette(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.courgetteregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.courgetteregular);
+        }
+    }
+
+    public static Typeface Bitter(Context context,FontStyle style){
+        switch (style){
+            case BOLD:
+                return getTypefaceFromRes(context,R.raw.bitterbold);
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.bitterregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.bitterregular);
+        }
+    }
+
+    public static Typeface Bellefair(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.bellefairregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.bellefairregular);
+        }
+    }
+
+    public static Typeface Anton(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.antonregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.antonregular);
+        }
+    }
+
+    public static Typeface AbrilFatface(Context context,FontStyle style){
+        switch (style){
+            case REGULAR:
+                return getTypefaceFromRes(context,R.raw.abrilfatfaceregular);
+            default:
+                return getTypefaceFromRes(context,R.raw.abrilfatfaceregular);
+        }
+    }
+
     public static Typeface Slabo(Context context,FontStyle style){
         switch (style){
             case REGULAR:
@@ -55,7 +161,7 @@ public class GoogleFontsLibrary {
         }
     }
 
-    public static Typeface RobotoCondenced(Context context,FontStyle style){
+    public static Typeface RobotoCondensed(Context context,FontStyle style){
         switch (style){
             case REGULAR:
                 return getTypefaceFromRes(context,R.raw.robotocondensedregular);
