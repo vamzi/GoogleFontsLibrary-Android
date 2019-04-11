@@ -26,7 +26,7 @@ Step 2. Add the dependency
 
 ```sh
 	dependencies {
-	        compile 'com.github.vamzi:GoogleFontsLibrary-Android:0.1.2'
+	        implementation 'com.github.vamzi:GoogleFontsLibrary-Android:0.1.2'
 	}
 ```
 
